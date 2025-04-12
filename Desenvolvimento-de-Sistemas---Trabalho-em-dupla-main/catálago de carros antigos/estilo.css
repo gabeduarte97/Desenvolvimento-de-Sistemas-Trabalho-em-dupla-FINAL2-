@@ -1,0 +1,204 @@
+/* Corpo da página */
+body {
+    background-color: #f9f9f9; /* Fundo limpo e neutro */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte moderna e legível */
+    color: #333; /* Texto escuro para boa leitura */
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #2C3E50; /* Azul escuro elegante */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Menu de navegação */
+.navbar {
+    background-color: #34495E; /* Azul escuro suave */
+}
+
+.navbar-nav .nav-link {
+    color: #ecf0f1 !important; /* Links claros para bom contraste */
+    font-size: 1.1em;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f39c12 !important; /* Amarelo para hover */
+    text-decoration: underline;
+}
+
+/* Estilo do Formulário de Filtro */
+.select-category {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.select-category select {
+    padding: 12px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 2px solid #2C3E50; /* Cor da borda de acordo com o cabeçalho */
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.select-category button {
+    background-color: #2C3E50;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.select-category button:hover {
+    background-color: #f39c12; /* Cor de destaque no hover */
+    color: #fff;
+}
+
+/* Exibição dos carros */
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.card img:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2C3E50; /* Cor sólida para o título */
+    margin-bottom: 10px;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-body p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.card-body .btn {
+    background-color: #3498db; /* Azul claro para botões */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.card-body .btn:hover {
+    background-color: #2980b9; /* Azul mais escuro ao passar o mouse */
+}
+
+/* Filtros de categoria */
+h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #2C3E50;
+}
+
+h4 {
+    text-align: center;
+    color: #3498db;
+}
+
+.select-category a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.select-category a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    background-color: #2C3E50; /* Fundo escuro para rodapé */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Modal Popup (detalhes do carro) */
+.modal-content {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.modal-header {
+    background-color: #3498db; /* Azul para cabeçalho do modal */
+    color: white;
+    padding: 15px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.modal-body {
+    color: #333;
+    font-size: 1.2em;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.modal-footer .btn {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.2em;
+}
+
+.modal-footer .btn:hover {
+    background-color: #2980b9; /* Azul mais escuro ao passar o mouse */
+    color: white;
+}

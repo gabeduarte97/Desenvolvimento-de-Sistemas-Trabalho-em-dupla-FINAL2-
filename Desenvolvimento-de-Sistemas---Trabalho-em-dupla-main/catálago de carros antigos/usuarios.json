@@ -1,0 +1,22 @@
+[
+    {
+        "usuario": "php",
+        "senha_hash": "$2y$10$cr2PtIRUfx87JijRCbTRK.cXrUQ0U1ksHqNca9UHUs6wn4i4WKNuW"
+    },
+    {
+        "usuario": "gabriel",
+        "senha_hash": "$2y$10$MqZ1VioQQx4ex9Pr8R8rnuGxb\/GWp4\/Kvm5SYqYtGlFclyCcpUk3q"
+    },
+    {
+        "usuario": "admin",
+        "senha_hash": "$2y$10$h\/tqcZMR7FFyaHi\/Rfamjutp\/fxJM2OXlSdNr1T1mv.P7UhZ\/U1Zq"
+    },
+    {
+        "usuario": "teste",
+        "senha_hash": "$2y$10$bpgKA\/.Qymh2qIx8OzYwSOqY94QPx3wr\/w1IPjEUC1tTrIaeUTz1."
+    },
+    {
+        "usuario": "gabe",
+        "senha_hash": "$2y$10$JsRWaHs7wsLmleP6B\/Yr8OlGgOBwDqMGuAFEl.FuM2y7UKpSrBi.6"
+    }
+]

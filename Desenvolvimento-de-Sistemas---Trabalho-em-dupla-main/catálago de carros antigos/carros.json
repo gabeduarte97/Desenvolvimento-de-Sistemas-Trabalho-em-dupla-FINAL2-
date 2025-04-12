@@ -1,0 +1,12 @@
+[
+    {
+        "id": "67f9a503a8005",
+        "nome": "gol",
+        "marca": "gol",
+        "ano": "1111",
+        "categoria": "esportivo",
+        "descricao": "teste",
+        "imagem": "download.jpg",
+        "id_usuario": "php"
+    }
+]
